@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="forumverileriModelStoreContainer" CdmEntityContainer="forumverileriEntities">
+    <EntitySetMapping Name="forumtablosu">
+      <EntityTypeMapping TypeName="forumverileriModel.forumtablosu">
+        <MappingFragment StoreEntitySet="forumtablosu">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="isim" ColumnName="isim" />
+          <ScalarProperty Name="soyisim" ColumnName="soyisim" />
+          <ScalarProperty Name="mesaj" ColumnName="mesaj" />
+          <ScalarProperty Name="tarih" ColumnName="tarih" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
